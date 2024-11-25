@@ -53,7 +53,7 @@ const App = () => {
 
   return (
     <div>
-      {/* Navigation */}
+      
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center space-x-3">
@@ -66,7 +66,7 @@ const App = () => {
         </div>
       </nav>
 
-      {/* Search Form */}
+    
       <form className="max-w-md mx-auto mt-8" onSubmit={handleSearch}>
         <div className="relative">
           <input
@@ -87,7 +87,7 @@ const App = () => {
         </div>
       </form>
 
-      {/* Word and Definition Display */}
+    
       <div className="p-32 mx-auto mt-8 p-4 border rounded-lg bg-gray-50 dark:bg-gray-800">
         {error ? (
           <p className="text-red-500">{error}</p>
